@@ -20,25 +20,25 @@
   font-family: 'Noto Sans SC', sans-serif;
     /* padding-bottom:5%; */
   }
-  .landing h1{
+  /* .landing h1{
     padding: 2px;
     margin: 5px;
-  }
+  } */
   .landing p{
     padding: 2px;
   }
-    #logo{
+    /* #logo{
     margin-top: 12px;
     margin-bottom: 24px;
     width: 70px;
     height: 70px;;
-  }
-  #mouse-click{
+  } */
+  /* #mouse-click{
     padding-top : 22px;
     margin-top: 10%;
-    padding-bottom: 30px;
+    padding-bottom: 30px; */
     /* animation-iteration-count: infinite; */
-  }
+  /* } */
   
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
@@ -198,10 +198,10 @@
       width:100%px;
       margin: 20px;
     }
-    #portfolio{
+    /* #portfolio{
       margin-left:8%;
-      margin-right: 16%;
-    }
+      margin-right: 16%; */
+    /* } */
     button{
       margin-left: 2%;
       padding-bottom: 30px;

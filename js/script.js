@@ -9,6 +9,28 @@ $(document).ready(funtion)(){
             });
           });
 
+          $(document).ready(function(){
+                $("#design-image").click(function(){
+                  $("#design-image").slideToggle(3000);
+                  $("#design").slideToggle(3000);
+                });
+                $("#design").click(function(){
+                  $("#design").slideToggle(3000);
+                  $("#design-image").slideToggle(3000);
+                });
+              });
+
+            $(document).ready(function(){
+                    $("#product-image").click(function(){
+                      $("#product-image").slideToggle(3000);
+                      $("#product").slideToggle(3000);
+                    });
+                    $("#product").click(function(){
+                      $("#product").slideToggle(3000);
+                      $("#product-image").slideToggle(3000);
+                    });
+                  });
+
 
 
 

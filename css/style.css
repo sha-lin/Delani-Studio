@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
   }
   .landing{
-    background-image: url('../backgrounds/image/h_img.jpg');
+    background-image: url('/assets/backgrounds/h_img.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,9 +58,9 @@
     padding-top:40px;
     font-family: 'Copse', serif;
   }
-  #about{
+  /* #about{
   
-  }
+  } */
   .services{
     text-align: center;
     background-image: url("../image/s_image.jpg");
@@ -71,10 +71,10 @@
     font-family: 'Copse', serif;
     font-size: 18px;
   }
-  .services h2{
+  /* .services h2{
   
   
-  }
+  } */
   #servicesoverlay{
     background-color: rgba(0,0,0,0.4);
     padding-top: 10%;
@@ -184,7 +184,7 @@
     padding-top: 50%;
   }
   
-  }
+  /* } */
   @media only screen and (max-width: 755px){
     #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
       width: 100%;

@@ -107,7 +107,7 @@
   
   }
   .contact{
-    background-image: url('../image/c_image.jpg');
+    background-image: url('../assets/backgrounds/c_image.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@
   }
   input[type=text],input[type=email],#comment{
     background: transparent;
-    color: white;
+    color: rgb(216, 45, 102);
     font-size: 20px;
     font-family: 'Copse', serif;
   }

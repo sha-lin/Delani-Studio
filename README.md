@@ -23,5 +23,5 @@ E-mail: ronoshalin@gmail.com
 Phone: +254701338
 
 ### License
-Copyright (c) {2021} **{Shalin Rono}**
+Copyright (c) {2021} **Shalin Rono**
     https://choosealicense.com/licenses/mit/#

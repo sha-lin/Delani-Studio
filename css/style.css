@@ -125,7 +125,7 @@
   }
   input[type=text],input[type=email],#comment{
     background: transparent;
-    color: rgb(216, 45, 102);
+    color: white;
     font-size: 20px;
     font-family: 'Copse', serif;
   }

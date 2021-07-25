@@ -7,7 +7,7 @@
   html {
     scroll-behavior: smooth;
   }
-  .landing{
+  .first{
     background-image: url('/assets/backgrounds/h_img.jpg');
     background-position: center center;
     background-size: cover;
@@ -20,11 +20,11 @@
   font-family: 'Noto Sans SC', sans-serif;
     /* padding-bottom:5%; */
   }
-  .landing h1{
+  .first h1{
     padding: 2px;
     margin: 5px;
   }
-  .landing p{
+  .first p{
     padding: 2px;
   }
     #logo{
@@ -283,18 +283,5 @@
       margin-right: 10%;
     }
   } 
-  .portfolio:hover .image {
-    opacity: 0.3;
-  }
   
-  .portfolio :hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
    

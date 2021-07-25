@@ -37,7 +37,8 @@ $(document).ready(function(){
     }).mouseout(function(){
       $("#overlay").hide();
     });
-  });
+  
+});
   
   $(document).ready(function(){
     $("#work2").mouseover(function(){
@@ -89,13 +90,54 @@ $(document).ready(function(){
     });
   });
   
-//   $(document).ready(function(){
-//   $("#portfolio").hover(function(){
-//     $(this).css("background-color", "yellow");
-// }, function(){
-// $(this).css("background-color", "pink");
-// });
+  
+  $("#work1").hover(function(){
+    $(this).animate({opacity:'0.3'});
+}, function(){
+$(this).animate({opacity:'1'});
+});
 
+$("#work2").hover(function(){
+  $(this).animate({opacity:'0.3'});
+}, function(){
+$(this).animate({opacity:'1'});
+});
+
+$("#work3").hover(function(){
+  $(this).animate({opacity:'0.3'});
+}, function(){
+$(this).animate({opacity:'1'});
+});
+
+$("#work4").hover(function(){
+  $(this).animate({opacity:'0.3'});
+}, function(){
+$(this).animate({opacity:'1'});
+});
+
+$("#work5").hover(function(){
+  $(this).animate({opacity:'0.3'});
+}, function(){
+$(this).animate({opacity:'1'});
+});
+
+$("#work6").hover(function(){
+  $(this).animate({opacity:'0.3'});
+}, function(){
+$(this).animate({opacity:'1'});
+});
+
+$("#work7").hover(function(){
+  $(this).animate({opacity:'0.3'});
+}, function(){
+$(this).animate({opacity:'1'});
+});
+
+$("#work8").hover(function(){
+  $(this).animate({opacity:'0.3'});
+}, function(){
+$(this).animate({opacity:'1'});
+});
 
   $(document).ready(function(){
     $("form#form34A").submit(function(event){
@@ -104,7 +146,7 @@ $(document).ready(function(){
       var email = $("input#MERGE0").val();
       var message = $("textarea#comment").val();
       if ($("input#MERGE1").val() && $("input#MERGE0").val()){
-        alert (name + ", we have received your message. Thank you for reaching out to us.");
+        alert (Name + ", we have received your message. Thank you for reaching out to us.");
       }
       else {
         alert("Please enter your name and email!");
@@ -114,37 +156,3 @@ $(document).ready(function(){
   
   });
 
-  
-
-  // $(document).ready(funtion)(){
-//     $("#development-image").click(function(){
-//               $("#development-image").slideToggle(3000);
-//               $("#development").slideToggle(3000);
-//             });
-//             $("#development").click(function(){
-//               $("#development").slideToggle(3000);
-//               $("#development-image").slideToggle(3000);
-//             });
-//           });
-
-//           $(document).ready(function(){
-//                 $("#design-image").click(function(){
-//                   $("#design-image").slideToggle(3000);
-//                   $("#design").slideToggle(3000);
-//                 });
-//                 $("#design").click(function(){
-//                   $("#design").slideToggle(3000);
-//                   $("#design-image").slideToggle(3000);
-//                 });
-//               });
-
-//             $(document).ready(function(){
-//                     $("#product-image").click(function(){
-//                       $("#product-image").slideToggle(3000);
-//                       $("#product").slideToggle(3000);
-//                     });
-//                     $("#product").click(function(){
-//                       $("#product").slideToggle(3000);
-//                       $("#product-image").slideToggle(3000);
-//                     });
-//                   });

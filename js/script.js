@@ -90,6 +90,14 @@ $(document).ready(function(){
   });
   
   $(document).ready(function(){
+  $("#portfolio").hover(function(){
+    $(this).css("background-color", "yellow");
+}, function(){
+$(this).css("background-color", "pink");
+});
+
+
+  $(document).ready(function(){
     $("form#form34A").submit(function(event){
       // event.preventDefault();
       var name = $("input#MERGE1").val();

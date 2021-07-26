@@ -7,7 +7,7 @@
   html {
     scroll-behavior: smooth;
   }
-  .landing{
+  .first{
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-position: center center;
     background-size: cover;
@@ -20,11 +20,11 @@
   font-family: 'Noto Sans SC', sans-serif;
     /* padding-bottom:5%; */
   }
-  .landing h1{
+  .first h1{
     padding: 2px;
     margin: 5px;
   }
-  .landing p{
+  .first p{
     padding: 2px;
   }
     #logo{
